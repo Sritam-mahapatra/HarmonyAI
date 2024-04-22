@@ -213,11 +213,11 @@ def load_model(weights, num_classes):
 
     # Loading the NGram model
 
-    with open("NLP/NLP/nlp_data_processed", "rb") as fp:  # Unpickling
+    with open("NLP/nlp_data_processed", "rb") as fp:  # Unpickling
         train_data_processed = pickle.load(fp)
 
     global n_gram_counts_list
-    with open("NLP/NLP/nlp_gram_counts", "rb") as fp:  # Unpickling
+    with open("NLP/nlp_gram_counts", "rb") as fp:  # Unpickling
         n_gram_counts_list = pickle.load(fp)
 
     global vocabulary
