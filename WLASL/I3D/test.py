@@ -1,13 +1,6 @@
 """
-
 This is a test page, the run.py file is the main running program
 
-"""
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Feb 25 20:10:06 2022
-
-@author: 24412
 """
 import math
 import os

@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 19 09:37:10 2022
-
-@author: 24412
-"""
-
 from itertools import chain
 import math
 import os
